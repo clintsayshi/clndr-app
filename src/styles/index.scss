@@ -10,3 +10,34 @@ html {
   font-family: sans-serif;
   font-size: 18px;
 }
+
+.app-logo {
+  display: none;
+  color: white;
+  font-size: 24px;
+  @media (min-width: 36em) {
+    display: block;
+  }
+}
+
+.std__button {
+  height: fit-content;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.display-block {
+  display: block;
+}
+
+header {
+  background-color: #f06c00;
+}
+
+h4 {
+  font-size: 1rem;
+}
