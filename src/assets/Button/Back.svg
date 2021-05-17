@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button/Back</title>
+    <defs>
+        <circle id="path-1" cx="17.859375" cy="17.859375" r="17.859375"></circle>
+        <filter x="-10.1%" y="-10.1%" width="131.5%" height="131.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.125" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Existing-Message-Scroll" transform="translate(-14.000000, -94.000000)">
+            <g id="Button/Back" transform="translate(16.000000, 96.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#AC4D00" stroke-width="0.25" fill="#F06C00" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="22.8434625 10.4684625 21.2252625 8.859375 12.234375 17.859375 21.234375 26.859375 22.8434625 25.2502875 15.45255 17.859375"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

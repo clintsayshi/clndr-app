@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button/Add New Friend</title>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-22.0%" y="-22.0%" width="152.0%" height="152.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contacts" transform="translate(-303.000000, -581.000000)">
+            <g id="Button/Add-New-Friend" transform="translate(309.000000, 587.000000)">
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F06C00" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="24.5277778" cy="18.75" r="4.86111111"></circle>
+                <path d="M33.3333333,33.8388348 C33.3333333,28.9572811 29.6023729,25 25,25 C20.3976271,25 16.6666667,28.9572811 16.6666667,33.8388348 C16.6666667,38.7203884 33.3333333,38.7203884 33.3333333,33.8388348 Z" id="Oval" fill="#FFFFFF"></path>
+                <line x1="29.1666667" y1="12.8333333" x2="38.1666667" y2="12.8333333" id="Path" stroke="#FFFFFF" stroke-width="2"></line>
+                <line x1="33.6666667" y1="17.3333333" x2="33.6666667" y2="8.33333333" id="Path" stroke="#FFFFFF" stroke-width="2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

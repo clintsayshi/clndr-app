@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button/Start New Chat Copy 5</title>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-22.0%" y="-22.0%" width="152.0%" height="152.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chats" transform="translate(-303.000000, -581.000000)">
+            <g id="Button/Start-New-Chat-Copy-5" transform="translate(309.000000, 587.000000)">
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#E56B1C" xlink:href="#path-1"></use>
+                </g>
+                <path d="M35.8888889,13.8888889 C37.5457431,13.8888889 38.8888889,15.2320346 38.8888889,16.8888889 L38.8888889,31.7222222 C38.8888889,33.3790765 37.5457431,34.7222222 35.8888889,34.7222222 L23.9241111,34.7218889 L16.7825002,40.2777778 L16.7821111,34.7218889 L14.1111111,34.7222222 C12.4542569,34.7222222 11.1111111,33.3790765 11.1111111,31.7222222 L11.1111111,16.8888889 C11.1111111,15.2320346 12.4542569,13.8888889 14.1111111,13.8888889 L35.8888889,13.8888889 Z" id="Combined-Shape" stroke="#E56B1C" stroke-width="1.5" fill="#FFFFFF"></path>
+                <line x1="18.0555556" y1="24.3055556" x2="31.9444444" y2="24.3055556" id="Line-2" stroke="#E56B1C" stroke-width="1.5" stroke-linecap="square"></line>
+                <line x1="18.0555556" y1="20.1388889" x2="31.9444444" y2="20.1388889" id="Line-2-Copy-3" stroke="#E56B1C" stroke-width="1.5" stroke-linecap="square"></line>
+                <line x1="18.0555556" y1="28.4722222" x2="31.9444444" y2="28.4722222" id="Line-2-Copy" stroke="#E56B1C" stroke-width="1.5" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>
