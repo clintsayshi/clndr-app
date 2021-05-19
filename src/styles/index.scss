@@ -7,14 +7,21 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 18px;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 .app-logo {
   display: none;
   color: white;
   font-size: 24px;
+  margin: 0;
+  padding: 0;
   @media (min-width: 36em) {
     display: block;
   }
@@ -25,9 +32,14 @@ html {
   border: none;
   border-radius: 30px;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: bolder !important;
   text-transform: uppercase;
+
+  @media (max-width: 325px) {
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+  }
 }
 
 .display-block {
