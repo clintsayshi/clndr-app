@@ -1,0 +1,17 @@
+/* 
+
+
+*/
+
+.selected {
+  display: none;
+  position: absolute;
+
+  @media (min-width: 769px) {
+    display: block;
+    position: relative;
+  }
+}
+
+.calendar {
+}

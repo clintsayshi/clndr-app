@@ -6,9 +6,21 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "roboto";
+  src: url(./robots.txt);
+}
+
 html {
-  font-family: roboto, sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 18px;
+  height: 100%;
+
+  --bg: #fcfcfc;
+}
+
+body {
+  // background-color: var(--bg);
 }
 
 img {
@@ -16,15 +28,8 @@ img {
   display: block;
 }
 
-.app-logo {
-  display: none;
-  color: white;
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-  @media (min-width: 36em) {
-    display: block;
-  }
+a {
+  text-decoration: none;
 }
 
 .std__button {
@@ -47,7 +52,8 @@ img {
 }
 
 header {
-  background-color: #f06c00;
+  margin: 0 !important;
+  //border: 1px dotted blue !important;
 }
 
 h4 {

@@ -1,0 +1,50 @@
+/* 
+
+
+*/
+.main {
+  //height: 100%;
+}
+
+.day {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hour {
+  //border: 1px dotted blue;
+  height: 6em;
+  padding: 0.25rem 0.5rem;
+
+  display: flex;
+  align-items: flex-start;
+  column-gap: 0.5rem;
+
+  & > * {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+}
+
+.hour__content {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  //border: 1px dotted blue;
+}
+
+.event {
+  border: 0.5px solid whitesmoke;
+  border-left-width: 8px !important;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.today {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 999px;
+}

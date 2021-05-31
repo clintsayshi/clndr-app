@@ -1,0 +1,165 @@
+/* 
+
+*/
+@use "../abstracts/utils" as *;
+
+.nav {
+  //border: 1px dotted blue;
+  display: none;
+  position: absolute;
+  // display: block;
+  width: 80%;
+  height: 100%;
+
+  @media (min-width: 600px) {
+    width: 50%;
+  }
+  @media (min-width: 769px) {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+}
+
+.user {
+  //margin: auto;
+  //width: 100%;
+  //padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+.user__avatar {
+  border: 6px solid whitesmoke;
+  border-radius: 999px;
+  img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: inherit;
+  }
+}
+
+.user__btn {
+  padding: 0.4rem 0.75rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 45px;
+  background-color: rgb(160, 81, 233);
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* .nav__links,
+.categories,
+.nav__actions {
+  padding: 1.5rem 2rem;
+
+  @media (min-width: 600px) {
+  }
+  @media (min-width: 769px) {
+    padding: 1rem;
+  }
+  @media (min-width: 769px) {
+  }
+} */
+
+.section__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation Links */
+
+.nav_links__ {
+  list-style: none;
+  //border: 1px dotted blue;
+}
+
+.nav__link {
+  & > * {
+    display: block;
+    color: #333333;
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+  }
+}
+
+/* Categories */
+.categories__ {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.category {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: chocolate;
+  padding: 0.5rem 0;
+  width: 6rem;
+}
+
+/* Actions */
+
+.settings__link {
+  padding: 0;
+}
+
+.toggle__container {
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.toggle__container input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.input__label {
+  cursor: pointer;
+  text-indent: -999px;
+  text-align: left;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  //padding: 0.4rem 1rem;
+  font-size: 0.5rem;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100px;
+    transition: 0.3s;
+  }
+}
+
+.toggle__container input:checked + label {
+  background: blueviolet;
+}
+
+.toggle__container input:checked + label::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.toggle__container label:active::after {
+  width: 45px;
+}
