@@ -40,7 +40,7 @@ export default function Calendar() {
     const current = currentDate;
     current.setDate(1);
     const firstDay = current.getDay() + 1;
-    console.log(firstDay);
+
     return (
       <div className={cal.calender}>
         <header
